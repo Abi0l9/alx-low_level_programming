@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
- *main - The function prints a string as output and 
- *Return - return 0.
- *
+ * main - This function prints a string as output
+ * Return - It returns 0 if the program executed successfully, otherwise it returns 1
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	returns (0);
 }
