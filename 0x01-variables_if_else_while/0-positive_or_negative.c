@@ -4,7 +4,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * imain - the function prints out a string based on the
+ *  main - the function prints out a string based on the
  *  number generated.
  *  Return: returns 0 for success.
  */
