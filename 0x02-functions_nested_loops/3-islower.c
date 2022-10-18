@@ -8,10 +8,8 @@
 int _islower(int c)
 {
 	int result;
-	int ch = c;
-	int lower = tolower(ch);
 
-	if (ch == lower)
+	if (c >= 'a' && c <= 'z')
 		result = 1;
 	else
 		result = 0;
