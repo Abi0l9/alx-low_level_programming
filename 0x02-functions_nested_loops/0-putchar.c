@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  *  main - prints a string using putchar to the standard output
@@ -11,8 +12,8 @@ int main(void)
 
 	for (i = 0; i <= 7; i++)
 	{
-		putchar(n[i]);
+		_putchar(n[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
